@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/Users/arpitsabherwal/Downloads/AirDrumsNew/app/build/intermediates/res/merged/debug/raw/hithatclosehit.mp3",
+        "source": "/Users/arpitsabherwal/Downloads/AirDrumsNew/app/src/main/res/raw/hithatclosehit.mp3"
+    },
+    {
+        "merged": "/Users/arpitsabherwal/Downloads/AirDrumsNew/app/build/intermediates/res/merged/debug/raw/bass.mp3",
+        "source": "/Users/arpitsabherwal/Downloads/AirDrumsNew/app/src/main/res/raw/bass.mp3"
+    },
+    {
+        "merged": "/Users/arpitsabherwal/Downloads/AirDrumsNew/app/build/intermediates/res/merged/debug/raw/tommid.mp3",
+        "source": "/Users/arpitsabherwal/Downloads/AirDrumsNew/app/src/main/res/raw/tommid.mp3"
+    },
+    {
+        "merged": "/Users/arpitsabherwal/Downloads/AirDrumsNew/app/build/intermediates/res/merged/debug/raw/hihatopenclose.mp3",
+        "source": "/Users/arpitsabherwal/Downloads/AirDrumsNew/app/src/main/res/raw/hihatopenclose.mp3"
+    },
+    {
+        "merged": "/Users/arpitsabherwal/Downloads/AirDrumsNew/app/build/intermediates/res/merged/debug/raw/snare.mp3",
+        "source": "/Users/arpitsabherwal/Downloads/AirDrumsNew/app/src/main/res/raw/snare.mp3"
+    },
+    {
+        "merged": "/Users/arpitsabherwal/Downloads/AirDrumsNew/app/build/intermediates/res/merged/debug/raw/floortoms.mp3",
+        "source": "/Users/arpitsabherwal/Downloads/AirDrumsNew/app/src/main/res/raw/floortoms.mp3"
+    },
+    {
+        "merged": "/Users/arpitsabherwal/Downloads/AirDrumsNew/app/build/intermediates/res/merged/debug/raw/crash.mp3",
+        "source": "/Users/arpitsabherwal/Downloads/AirDrumsNew/app/src/main/res/raw/crash.mp3"
+    },
+    {
+        "merged": "/Users/arpitsabherwal/Downloads/AirDrumsNew/app/build/intermediates/res/merged/debug/raw/hihatopenhit.mp3",
+        "source": "/Users/arpitsabherwal/Downloads/AirDrumsNew/app/src/main/res/raw/hihatopenhit.mp3"
+    },
+    {
+        "merged": "/Users/arpitsabherwal/Downloads/AirDrumsNew/app/build/intermediates/res/merged/debug/raw/tomhi.mp3",
+        "source": "/Users/arpitsabherwal/Downloads/AirDrumsNew/app/src/main/res/raw/tomhi.mp3"
+    },
+    {
+        "merged": "/Users/arpitsabherwal/Downloads/AirDrumsNew/app/build/intermediates/res/merged/debug/raw/ride.mp3",
+        "source": "/Users/arpitsabherwal/Downloads/AirDrumsNew/app/src/main/res/raw/ride.mp3"
+    },
+    {
+        "merged": "/Users/arpitsabherwal/Downloads/AirDrumsNew/app/build/intermediates/res/merged/debug/raw/bassdrum.mp3",
+        "source": "/Users/arpitsabherwal/Downloads/AirDrumsNew/app/src/main/res/raw/bassdrum.mp3"
+    }
+]

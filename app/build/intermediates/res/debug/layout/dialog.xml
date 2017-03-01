@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffffff"
+    android:gravity="center">
+    
+    <TextView 
+        android:id="@+id/tvOption1"
+        android:text="2 Drums"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:padding="20dp"
+        android:textSize="20dp"/>
+    <TextView 
+        android:id="@+id/tvOption2"
+        android:text="4 Drums"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:textColor="#000000"
+        android:textSize="20dp"/>
+    <TextView 
+        android:id="@+id/tvOption3"
+        android:text="6 Drums"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:textColor="#000000"
+        android:textSize="20dp"/>
+    
+
+</LinearLayout>
+<!-- From: file:/Users/utsavvakil/AndroidStudioProjects/AirDrumsNew/app/src/main/res/layout/dialog.xml -->

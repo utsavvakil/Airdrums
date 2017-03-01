@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000" >
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Input:"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/label"
+        android:layout_marginLeft="10dip"
+        android:text="Open"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/open"
+        android:layout_toLeftOf="@id/open"
+        android:text="Close"
+        android:textColor="#ffffff" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/close"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/ivCrash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="60dp"
+                android:src="@drawable/crash" />
+
+            <ImageView
+                android:id="@+id/ivRide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="60dp"
+                android:src="@drawable/ride" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp" >
+
+            <TextView
+                android:id="@+id/tvCrash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="60dp"
+                android:text="Crash"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/tvRide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="60dp"
+                android:text="Ride"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp" >
+
+            <ImageView
+                android:id="@+id/ivTomMid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:src="@drawable/tommid" />
+
+            <ImageView
+                android:id="@+id/ivSnare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:src="@drawable/snare" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" 
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:id="@+id/tvTomMid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:text="Tom Mid"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/tvSnare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:text="Snare"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" 
+            android:paddingTop="20dp">
+
+            <ImageView
+                android:id="@+id/ivHiHat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/hihat" />
+
+            <ImageView
+                android:id="@+id/ivBass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:src="@drawable/bass" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvHiHat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                android:paddingRight="10dp"
+                android:text="Hi Hat"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/tvBass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="Bass Drum"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/Users/utsavvakil/AndroidStudioProjects/AirDrumsNew/app/src/main/res/layout/main.xml -->
